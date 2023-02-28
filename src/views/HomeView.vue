@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <img alt="matrix logo" class="home__image" src="../assets/matrix2.png">
+    <h1 v-text="header"/>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
 export default defineComponent({
   name: 'HomeView',
-  components: {
-    HelloWorld,
+  setup() {
+    return {
+      header: 'Welcome to MedScanner',
+    };
   },
 });
 </script>
+
+<style lang="scss">
+.home {
+  &__image {
+    width: 50vw;
+  }
+}
+</style>

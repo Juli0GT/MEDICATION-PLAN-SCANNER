@@ -1,5 +1,12 @@
 # medication-plan-scanner
 
+## Run project with Docker
+This assumes that you have docker already installed, otherwise jump to next section.
+
+On the root folder run `docker-compose up`, this will build and run the docker container where the app runs.
+
+The application will open to http://localhost:8080 in your browser.
+
 ## Project setup
 ```
 yarn install
@@ -24,6 +31,3 @@ yarn test:unit
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

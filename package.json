@@ -10,13 +10,18 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "html5-qrcode": "^2.3.7",
+    "moment": "^2.29.4",
+    "node-polyfill-webpack-plugin": "^2.0.1",
     "register-service-worker": "^1.7.2",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "vuex": "^4.0.0",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
+    "@types/xml2js": "^0.4.11",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-babel": "~5.0.0",
